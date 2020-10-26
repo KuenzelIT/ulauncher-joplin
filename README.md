@@ -6,6 +6,11 @@
 
 ![screenshot2](images/screenshot2.png)
 
+## Requirements
+- `json` lib must be installed
+- `requests` lib must be installed
+- Joplin Web Clipper service must be running. You can start the services in the Joplin settings.
+
 ## Use
 > note My note title
 >
@@ -22,3 +27,4 @@ The **number of notebooks** that are shown can be changed in the extension's set
 > https://github.com/KuenzelIT/ulauncher-joplin
 
 Copy and paste this repository link inside __Add extension__ in Ulauncher's settings panel.
+
