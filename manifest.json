@@ -1,0 +1,31 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Joplin notes",
+  "description": "Easily add notes to joplin using ulauncher",
+  "developer_name": "Denis Gerber",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "kw_note",
+      "type": "keyword",
+      "name": "Joplin Note",
+      "default_value": "note"
+    },
+    {
+      "id": "kw_todo",
+      "type": "keyword",
+      "name": "Joplin ToDo",
+      "default_value": "todo"
+    },
+    {
+      "id": "limit",
+      "type": "input",
+      "name": "Count of notebooks that should be shown",
+      "default_value": "5"
+    }
+  ]
+}
+  
